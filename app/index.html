@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../assets/stlye.css">
+    <script defer src="../js/calcular.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Média</h1>
+        <div id="display" class="display">0</div>
+        <form>
+            <label for="ano">Ano Letivo:</label>
+            <input type="text" id="ano" value=""><br><br>
+            <label for="turma">Turma:</label>
+            <select id="turma">
+                <option value="Turma A">Turma A</option>
+                <option value="Turma B">Turma B</option>
+                <option value="Turma C">Turma C</option>
+            </select><br><br>
+            <label for="turno">Turno:</label>
+            <select id="turno">
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select><br><br>
+            <label for="nome">Aluno:</label>
+            <input type="text" id="nome" value=""><br><br>
+            <label for="nota1">Nota 1:</label>
+            <input type="number" id="nota1" value="0"><br><br>
+            <label for="nota2">Nota 2:</label>
+            <input type="number" id="nota2" value="0"><br><br>
+            <label for="nota3">Nota 3:</label>
+            <input type="number" id="nota3" value="0"><br><br>
+            <label for="nota4">Nota 4:</label>
+            <input type="number" id="nota4" value="0"><br><br>
+            <button type="button" onclick="calcularMedia()">Calcular Média</button>
+        </form>
+    </div>
+</body>
+</html>
