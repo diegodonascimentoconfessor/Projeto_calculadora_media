@@ -94,7 +94,18 @@ const Template = [
         {
             label:'sobre',
             click: ()=> janelasobre()
-        }
+        },
+          
+        
+         {
+                   
+              label:'Documentação',
+              click: () => shell.openExternal('https://drive.google.com/file/d/1JdxSrm3DXi28mVcbwlqBd3of0x2AAzUW/view?usp=sharing')
+
+
+
+
+         },
 
     ]
 },
