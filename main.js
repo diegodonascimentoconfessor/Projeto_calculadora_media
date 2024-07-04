@@ -3,8 +3,8 @@ let mainwindow = null
 app.on ('ready', () =>{
     console.log("inciando electron")
     mainwindow =  new BrowserWindow({
-        width:1200,
-        height:1200,
+        width:800,
+        height:800,
         //autoHideMenuBar: true,
         resizable:false,
         icon: 'app/assets/ calculadora'
@@ -100,7 +100,7 @@ const Template = [
          {
                    
               label:'Documentação',
-              click: () => shell.openExternal('https://drive.google.com/file/d/1JdxSrm3DXi28mVcbwlqBd3of0x2AAzUW/view?usp=sharing')
+              click: () => shell.openExternal('https://drive.google.com/file/d/1u07Wab9hcF0b5jXqxZaQ3nZQm9OLjFj0/view?usp=sharing')
 
 
 
