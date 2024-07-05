@@ -7,7 +7,7 @@ app.on ('ready', () =>{
         height:800,
         //autoHideMenuBar: true,
         resizable:false,
-        icon: 'app/assets/icone_calculadora.png'
+        icon:'app/assets/icone_calculadora.png'
     })
     Menu.setApplicationMenu(Menu.buildFromTemplate(Template))
    mainwindow.loadFile('app/index.html')
